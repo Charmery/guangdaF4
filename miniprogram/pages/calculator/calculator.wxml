@@ -1,0 +1,4 @@
+<!--pages/calculator/calculator.wxml-->
+<view>非凡哥的</view>
+<button bindtap="catch">获取数据</button>
+<view>{{catch}}</view>
