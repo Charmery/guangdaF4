@@ -1,0 +1,33 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/calculate/calculate",
+    "pages/logs/logs"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#FFC0CB",
+    "navigationBarTitleText": "猛男健身",
+    "navigationBarTextStyle":"black"
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json",
+  "tabBar": {
+    "list": [{
+      "pagePath": "pages/index/index",
+      "text": "首页",
+      "iconPath": "image/1.jpg",
+      "selectedIconPath": "image/1.jpg"
+    },
+    {
+      "pagePath": "pages/calculate/calculate",
+      "text": "燃烧",
+      "iconPath": "image/2.jpg",
+      "selectedIconPath": "image/2.jpg"
+    }
+  ],
+    "color": "#F5F5F5",
+    "selectedColor": "#000",
+    "backgroundColor": "#FFC0CB"
+  }
+}

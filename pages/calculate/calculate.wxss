@@ -1,0 +1,21 @@
+/* pages/calculate/calculate.wxss */
+page{padding: 3px;box-sizing: border-box;}
+view{padding: 15rpx;}
+input{border: 1rpx solid #FFC0CB;}
+checkbox-group{padding: 20rpx;}
+checkbox{padding: 10rpx;}
+radio-groupp{padding: 20rpx;padding-top: 30rpx;}
+radio{padding: 10rpx;}
+
+.section__title{
+  color: #FF6699;
+  padding-top: 15rpx;
+  padding-bottom: 3rpx;
+}
+.section{
+  padding-top: 15rpx;
+  font-size: larger;
+}
+.bc{
+  background-color: rgb(254, 230, 234);
+}

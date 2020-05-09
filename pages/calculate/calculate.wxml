@@ -1,0 +1,38 @@
+<view class="section">
+  <view class="section__title">早餐：</view>
+   <picker mode="multiSelector" bindchange="Pickbreakfast" value="{{breakfast1}}" range="{{breakfast}}">
+    <view class="bc"><block wx:if="{{true}}">  
+       <text class="picker">{{breakfast[0][breakfast1[0]]}}</text>
+       <text class="picker">{{breakfast[1][breakfast1[1]]}}</text>
+    </block></view>
+   </picker>
+  <view class="section__title"> 午餐：</view>
+    <picker mode="multiSelector" bindchange="Picklunch" value="{{lunch1}}" range="{{lunch}}">
+     <view class="bc"> <block wx:if="{{true}}">
+       <text class="picker">{{lunch[0][lunch1[0]]}}</text>
+       <text class="picker">{{lunch[1][lunch1[1]]}}</text>
+      </block></view>
+    </picker>
+ <view class="section__title">晚餐：</view>
+    <picker mode="multiSelector" bindchange="Pickdinner" value="{{dinner1}}" range="{{dinner}}">
+     <view class="bc"><block wx:if="{{true}}">    
+       <text class="picker">{{dinner[0][dinner1[0]]}}</text>
+       <text class="picker">{{dinner[1][dinner1[1]]}}</text>
+     </block></view>
+    </picker>
+  <radio-group>
+    <radio color="pink">运动了</radio>
+    <radio color="pink">没运动</radio>
+  </radio-group>
+  <radio-group>
+    <radio color="pink">没熬夜</radio>
+    <radio color="pink">熬夜了</radio>
+  </radio-group>  
+  <radio-group>
+    <radio color="pink">没吃南五</radio>
+    <radio color="pink">吃了南五</radio>
+  </radio-group>
+  <view><input placeholder="请问您的体重是？"></input></view>
+  <view><input placeholder="请问您的身高是？"></input></view>
+  <view><button plain="true">开始计算</button></view>
+</view>
